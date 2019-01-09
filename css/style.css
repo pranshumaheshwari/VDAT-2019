@@ -7,6 +7,25 @@
 	typography
 \*----------------------------*/
 
+.heading{
+  font-size: 2vw;
+}
+
+.nav-list{
+  font-size: 0.8vw;
+}
+
+.head{
+  max-height: 5vh;
+}
+
+.image{
+  width: auto;
+  height: auto;
+  max-width: 5.5vw;
+  max-height: 5.5vw;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -151,7 +170,7 @@ textarea.input {
 .logo {
   position: relative;
   padding: 15px 15px;
-  font-size: 2em;
+  font-size: 38px;
 }
 
 .navbar-brand .logo>img {
@@ -384,16 +403,37 @@ textarea.input {
 }
 
 #commitee ul {
+  font-size: 25px;
   list-style-type: none;
 }
 
-#commitee li {
-  margin: 7px auto;
-  font-size: 1.4em;
+#commitee ul ul {
+  font-size: 19px;
+  list-style-type: circle;
+}
+
+#commitee ul li {
+  margin: 15px auto;
 }
 
 #commitee a:hover {
   cursor: pointer;
+}
+
+#callForPapers h5,h4{
+  font-size: 25px;
+}
+
+#callForPapers .impDates {
+  font-size: 20px;
+}
+
+#callForPapers p{
+  font-size: 20px;
+}
+
+#forums p {
+  font-size: 21px;
 }
 
 /*=========================================================
@@ -874,6 +914,10 @@ textarea.input {
 
 .contact-social a:hover {
   opacity: 0.8;
+}
+
+.contact p {
+  font-size: 20px;
 }
 
 /*=========================================================
